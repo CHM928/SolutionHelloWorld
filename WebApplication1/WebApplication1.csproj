@@ -68,7 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
-    <Content Include="Global.asax" />
+    <Content Include="ExampleGetMax.aspx" />
+    <Content Include="getDay.aspx" />
+    <Content Include="HomeworkchkEmail.aspx" />
+    <Content Include="PersonalID.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -79,8 +82,33 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Global.asax.cs">
-      <DependentUpon>Global.asax</DependentUpon>
+    <Compile Include="ExampleGetMax.aspx.cs">
+      <DependentUpon>ExampleGetMax.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExampleGetMax.aspx.designer.cs">
+      <DependentUpon>ExampleGetMax.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="getDay.aspx.cs">
+      <DependentUpon>getDay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="getDay.aspx.designer.cs">
+      <DependentUpon>getDay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeworkchkEmail.aspx.cs">
+      <DependentUpon>HomeworkchkEmail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeworkchkEmail.aspx.designer.cs">
+      <DependentUpon>HomeworkchkEmail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PersonalID.aspx.cs">
+      <DependentUpon>PersonalID.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PersonalID.aspx.designer.cs">
+      <DependentUpon>PersonalID.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
