@@ -28,7 +28,7 @@ namespace WebApplication1
             {
                 sum = sum + yearnum[i];
             }
-            Response.Write("这个日期是该年的第" + sum + "天。");
+            Response.Write("这个日期是该年的第" + sum + "天");
 
         }
     }
