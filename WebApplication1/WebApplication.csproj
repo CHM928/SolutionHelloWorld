@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="ExampleGetMax.aspx" />
+    <Content Include="findNum.aspx" />
     <Content Include="getDay.aspx" />
     <Content Include="HomeworkchkEmail.aspx" />
     <Content Include="PersonalID.aspx" />
@@ -89,6 +90,13 @@
     </Compile>
     <Compile Include="ExampleGetMax.aspx.designer.cs">
       <DependentUpon>ExampleGetMax.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="findNum.aspx.cs">
+      <DependentUpon>findNum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="findNum.aspx.designer.cs">
+      <DependentUpon>findNum.aspx</DependentUpon>
     </Compile>
     <Compile Include="getDay.aspx.cs">
       <DependentUpon>getDay.aspx</DependentUpon>
