@@ -72,6 +72,7 @@
     <Content Include="getDay.aspx" />
     <Content Include="HomeworkchkEmail.aspx" />
     <Content Include="PersonalID.aspx" />
+    <Content Include="PrintNumberPyramid.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -109,6 +110,13 @@
     </Compile>
     <Compile Include="PersonalID.aspx.designer.cs">
       <DependentUpon>PersonalID.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrintNumberPyramid.aspx.cs">
+      <DependentUpon>PrintNumberPyramid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrintNumberPyramid.aspx.designer.cs">
+      <DependentUpon>PrintNumberPyramid.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
